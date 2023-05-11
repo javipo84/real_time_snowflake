@@ -111,6 +111,9 @@
             type: 'category',           
             title: {
                 text: 'Últimos 60 minutos'
+            },
+            labels:{
+                rotate : -45
             }            
         },
         yaxis: [{
