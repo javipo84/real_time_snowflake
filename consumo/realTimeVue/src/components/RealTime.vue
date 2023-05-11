@@ -148,9 +148,9 @@
     
     onBeforeMount(async ()=>{      
         getData();
-        // setInterval(async () => {
-        //     getData();
-        // }, 3000);                    
+        setInterval(async () => {
+            getData();
+        }, 3000);                    
     })
 
     async function getData(){
