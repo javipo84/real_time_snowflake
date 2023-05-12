@@ -32,7 +32,7 @@ export class SnowflakeApi<PrimaryType, PayloadType = Record<string, unknown>> {
       "timeout": 60,
       "database": "SESION_REAL_TIME_DB",
       "schema": "PUBLIC",
-      "warehouse": "WH_BASICO",
+      "warehouse": "WH_AVANZADO",
       "role": "AVANZADO" 
     }`
 
@@ -57,7 +57,7 @@ export class SnowflakeApi<PrimaryType, PayloadType = Record<string, unknown>> {
       "timeout": 60,
       "database": "SESION_REAL_TIME_DB",
       "schema": "PUBLIC",
-      "warehouse": "WH_BASICO",
+      "warehouse": "WH_AVANZADO",
       "role": "AVANZADO" 
     }`
 
@@ -83,7 +83,7 @@ export class SnowflakeApi<PrimaryType, PayloadType = Record<string, unknown>> {
       "timeout": 60,
       "database": "SESION_REAL_TIME_DB",
       "schema": "PUBLIC",
-      "warehouse": "WH_BASICO",
+      "warehouse": "WH_AVANZADO",
       "role": "AVANZADO" 
     }`
 
@@ -111,7 +111,7 @@ export class SnowflakeApi<PrimaryType, PayloadType = Record<string, unknown>> {
       "timeout": 60,
       "database": "SESION_REAL_TIME_DB",
       "schema": "PUBLIC",
-      "warehouse": "WH_BASICO",
+      "warehouse": "WH_AVANZADO",
       "role": "AVANZADO" 
     }`
 
