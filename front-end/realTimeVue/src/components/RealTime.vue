@@ -75,7 +75,7 @@
             height: 350,
             type: 'line',
             dropShadow: {
-                enabled: true,
+                enabled: false,
                 color: '#000',
                 top: 18,
                 left: 7,
@@ -83,7 +83,7 @@
                 opacity: 0.2
             },
             toolbar: {
-                show: true
+                show: false
             }
         },
         colors: ['#77B6EA', '#545454'],
@@ -105,7 +105,7 @@
             }
         },
         markers: {
-            size: 1
+            size: 0
         },
         xaxis: {
             type: 'category',           
