@@ -150,7 +150,7 @@
         getData();
         setInterval(async () => {
             getData();
-        }, 3000);                    
+        }, 6000);                    
     })
 
     async function getData(){

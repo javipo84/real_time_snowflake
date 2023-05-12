@@ -9,7 +9,7 @@
                     :to="props.total"            
                     :duration="2"
                     :delay="0.3"
-                    :format="(number:number)=> number.toLocaleString('de')"
+                    :format="(value:number)=> Number(value.toFixed(0)).toLocaleString('de')"
                     easing="Power0.easeOut"/>
             </div>
         </div>
