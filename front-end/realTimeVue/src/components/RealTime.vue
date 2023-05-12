@@ -147,7 +147,7 @@
     
     
     onBeforeMount(async ()=>{      
-        getData();
+        await getData();
         setInterval(async () => {
             getData();
         }, 6000);                    
